@@ -215,20 +215,73 @@
 
 // adding one more prototype
 
-function Book (author, title, year) {
-    this.author = author;
-    this.title = title;
-    this.year = year;
-}
+// function Book (author, title, year) {
+//     this.author = author;
+//     this.title = title;
+//     this.year = year;
+// }
 
-Book.prototype.getSummary = function () {
-    return `${author} he is the author of ${title} book published in ${year} `
-}
+// Book.prototype.getSummary = function () {
+//     return `${author} he is the author of ${title} book published in ${year} `
+// }
 
-Book.prototype.getAge = function () {
-    const years = new Date().getFullYear() - this.year;
-    return `${this.title} is ${this.year} old`
-}
+// Book.prototype.getAge = function () {
+//     const years = new Date().getFullYear() - this.year;
+//     return `${this.title} is ${this.year} old`
+// }
 
-const book1 = new Book('ramu','shamu', 203)
-console.log(book1);
+// const book1 = new Book('ramu','shamu', 203)
+// console.log(book1);
+
+// ==========================================================================================================================
+//                             CODING NINJA JS = CLASSES AND OBJECTS
+// ==========================================================================================================================
+
+// =========================
+// First way to create object
+// =========================
+//                          doing it with function because we want to reuse this constructor to make many objects==============
+// function Fruit(taste,color){
+//     this.color = color,
+//     this.taste = taste
+//     this.summanry = function () {
+//         return console.log(`this is ${taste} of ${color} color`);
+//     }
+//     return 0
+// }
+
+// const mango = new Fruit("khataa", "orange")
+
+// console.log(mango.summanry());
+
+// =========================
+// Second way to create object = Class .1
+// =========================
+
+// class FruitClass  {
+//     constructor(taste,color){
+//         this.taste = taste;
+//         this.color = color;
+//     }
+// }
+
+// let kiwi = new FruitClass("sour","red")
+// console.log(kiwi);
+// console.log(FruitClass);
+
+// another ways to declare  class
+// we can store it in
+
+// let NewFruit = class  {
+//     constructor(color,taste){
+//         this.color = color;
+//         this.taste = taste;
+//     }
+// }
+
+
+// let mango = new NewFruit()
+
+// console.log(fruits);
+// console.log(NewFruit);
+
