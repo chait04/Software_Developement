@@ -112,7 +112,10 @@
 
 // increase(number)
 // console.log(number);
-//  this wll not increment 10 bcoz as we come out of function the console will refer to global value , bcoz its primitive data type it pdt copies by their value
+//this wll not increment 10 bcoz as we come
+//out of function the console will refer to 
+//global value , bcoz its primitive data type 
+//it pdt copies by their value
 
 // ======Now by object============
 
