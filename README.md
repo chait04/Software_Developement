@@ -7,6 +7,12 @@
 
 
 ##  Getting Started 👨‍💻
+
 ### Follow the directories
 
+* Advanced Javascript by Frontend masters (Best - codesmith) .
+* Javascript Essentials ( Linkdin Learning )
+* OOps in js ( Youtube collections with object literals )
+* Programming Fundamentals ( In python - pratice exercise )
 
+<code> HAPPY LEARNING </code>
