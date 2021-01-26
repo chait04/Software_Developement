@@ -5,6 +5,7 @@
 [![forks](https://img.shields.io/github/forks/chait04/Software_Developement
 )](#forks)
 
+# Pratice questions for <a href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php">javascript</a>
 
 ##  Getting Started 👨‍💻
 
