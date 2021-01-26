@@ -15,5 +15,5 @@
 * Javascript Essentials ( Linkdin Learning )
 * OOps in js ( Youtube collections with object literals )
 * Programming Fundamentals ( In python - pratice exercise )
-
+* js pratice questions
 <code> HAPPY LEARNING </code>
