@@ -43,7 +43,7 @@ function forEach(array, callback) {
  }
 }
 
-// console.log(forEach(["a","b","c","d"], addS))
+console.log(forEach(["a","b","c","d"], addS))
 
 // see for yourself if your forEach works!
 
