@@ -115,7 +115,7 @@
 //this wll not increment 10 bcoz as we come
 //out of function the console will refer to 
 //global value , bcoz its primitive data type 
-//it pdt copies by their value
+//and pdt copies by their value
 
 // ======Now by object============
 
@@ -288,3 +288,23 @@
 // console.log(fruits);
 // console.log(NewFruit);
 
+// =========================
+// this keyward in  Arrow functions
+// =========================
+
+// const person = {
+    // age : 20,
+// ES5 way to write method
+    // celebratedBirthday : function() {
+        // this.age++
+    // }
+// Es6 way to write method
+    // celebratedBirthday(){
+    //     this.age++
+    // }
+// Es7 way to write method (main concept)
+    // celebratedBirthday : () => {
+        // this.age++
+    // }
+// above code will not work. The above this.age will refer to global variable
+// }
