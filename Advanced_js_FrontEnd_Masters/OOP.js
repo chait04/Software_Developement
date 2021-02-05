@@ -53,6 +53,8 @@
 // const user2 = userCreator("Tim", 5);
 // user1.increment();
 
+// in above solution we are still repeating fucntion for every object 
+
 
 // ========================================
 //    Solution : 2
@@ -75,6 +77,7 @@
 // const user1 = userCreator("Will", 3);
 // const user2 = userCreator("Tim", 5);
 // user1.increment();
+
 
 // ========================================
 //    Solution : 3
@@ -115,4 +118,3 @@
 
 // const user1 = new userCretor("chaitanya", 1)
 // const user2 = new userCretor("Something", 10)
-
