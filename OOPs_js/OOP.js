@@ -76,7 +76,7 @@
 
 // function createCircle (radius) {
 //     return {
-//         radius,
+//         radius, //radius : radius
 //         draw () {
 //             console.log('draw');
 //         }
@@ -105,13 +105,13 @@
 //  primitive sucks
 // =============================
 // let number = 10;
-
 // function increase(number) {
-//     number ++
+//   return  number ++
 // }
 
 // increase(number)
 // console.log(number);
+
 //this wll not increment 10 bcoz as we come
 //out of function the console will refer to 
 //global value , bcoz its primitive data type 

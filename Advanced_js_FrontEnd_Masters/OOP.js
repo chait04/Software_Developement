@@ -89,7 +89,7 @@
 // }
 
 // UserCreator.prototype.increment = function (){
-//     this.score++
+//    return this.score++
 // }
 
 // UserCreator.prototype.login = function() {
@@ -100,14 +100,15 @@
 // const user2 = new createUser("Mayur", 6)
 
 // ==============================================
-//   CLASSES 
+//   CLASSES - its just a syntactic sugar .. javascript engine works same in background as its was working for functional objects
 // ==============================================
 
-// class userCretor {
+// class UserCretor {
 //     constructor(name, score){
 //         this.name = name;
 //         this.score = score;
 //     }
+// Here all methods will get stored in prototype
 //     increment() {
 //         this.score++
 //     }
@@ -118,3 +119,4 @@
 
 // const user1 = new userCretor("chaitanya", 1)
 // const user2 = new userCretor("Something", 10)
+// user1.increment();
