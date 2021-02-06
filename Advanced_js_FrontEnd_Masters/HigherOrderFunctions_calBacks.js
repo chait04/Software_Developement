@@ -1,5 +1,5 @@
 // Type JavaScript here and click "Run Code" or press Ctrl + s
-console.log('Hello, world!');
+// console.log('Hello, world!');
 
 
 // Challenge 1
@@ -37,20 +37,19 @@ function map(array, callback) {
 
 // Challenge 4
 function forEach(array, callback) {
-  
  for(let i = 0; i< array.length; i++) {
-	callback(array[i])
+    callback(array[i])
  }
 }
-
-console.log(forEach(["a","b","c","d"], addS))
 
 // see for yourself if your forEach works!
 
 
 // Challenge 5
 function mapWith(array, callback) {
-
+  let result = [];
+  forEach(array, el => result.push(callback(el)))
+  return result
 }
 
 
