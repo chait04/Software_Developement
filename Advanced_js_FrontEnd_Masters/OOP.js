@@ -30,7 +30,8 @@
 // user3.name = "Mayur";
 // user3.score = 4;
 // user3.increment = function () {
-//     user3.score++
+    // return ++user3.score
+    // return user3.score = user3.score + 1;
 // }
 
 // =========================
@@ -60,22 +61,22 @@
 //    Solution : 2
 // =========================================
 
-// function userCreator(name, score) {
-//   const newUser = Object.create(userFunctionStore);
-//   newUser.name = name;
-//   newUser.score = score;
-//   return newUser;
-// }
-// const userFunctionStore = {
-//   increment: function () {
-//     this.score++;
-//   },
-//   login: function () {
-//     console.log("Logged in");
-//   },
-// };
-// const user1 = userCreator("Will", 3);
-// const user2 = userCreator("Tim", 5);
+function userCreator(name, score) {
+  const newUser = Object.create(userFunctionStore);
+  newUser.name = name;
+  newUser.score = score;
+  return newUser;
+}
+const userFunctionStore = {
+  increment: function () {
+    this.score++;
+  },
+  login: function () {
+    console.log("Logged in");
+  },
+};
+const user1 = userCreator("Will", 3);
+const user2 = userCreator("Tim", 5);
 // user1.increment();
 
 
