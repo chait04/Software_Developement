@@ -24,7 +24,7 @@ const chaitanya = new Employee("chaitanya", 3, "SDE 1")
 
 // Creating another class 
 // Inheritance
-// Use this syntax === class newClassName extends previousClassName  ====
+// Use this syntax ===> class newClassName extends previousClassName  <====
 // add extends keyward
 
 // super is previous class constructor whic we inheritated
