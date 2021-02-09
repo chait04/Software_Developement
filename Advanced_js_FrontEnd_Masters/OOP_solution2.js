@@ -155,16 +155,16 @@ thai.introduce(); //-> Logs 'Hello World, my name is Thai'
 // all types of users can use functions added to the userFunctionStore
 var userFunctionStore = {
     sayType: function () {
-        console.log(“I am a ” + this.type);
+        console.log(`I am a ` + this.type);
     },
     sayName: function () { // created this in the solution just to log the object’s name and score
-        console.log(‘My name is ’ + this.name + ' and score is ' + this.score);
+        console.log(`My name is ` + this.name + ' and score is ' + this.score);
     }
 }
 
 function userFactory(name, score) {
     let user = Object.create(userFunctionStore);
-    user.type = “User”;
+    user.type = `User`;
     user.name = name;
     user.score = score;
     return user;
