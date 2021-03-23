@@ -1,6 +1,13 @@
 // TODO: write the validation functions
 
-
+function isValidName(name) {
+    if(typeof name == "string" &&
+        name.trim() >= 3
+    ) {
+        return true
+    }
+    return false
+}
 
 // tests:
 console.log(isValidName("Frank") === true);
