@@ -1,6 +1,6 @@
 // Third pattern and 1st approach
 
-// multipel pointers
+// multiple pointers
 
 function sumZero(arr) {
   for (let i = 0; i < arr.length; i++) {
